@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#header{
+    display: flex;
+    width: 90%;
+    margin:  0 auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.logo-area{
+    width: 200px;
+}
+
+.menu-area{
+    padding-top: 10px;
+}
+.menu-area ul{
+    display: flex;
+}
+.menu-area ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.menu-area ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    transition: .3s;
+    border-radius: 4px;
+}
+.menu-area ul li a:hover{
+    color: goldenrod;
+    background: #ddd;
+}
+.menu-area input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+    border: 2px solid #000;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.menu-area a i{
+    font-size: 35px;
+    color: #000;
+    padding-top: 6px;
+}
+
+

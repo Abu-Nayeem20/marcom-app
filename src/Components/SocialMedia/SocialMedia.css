@@ -1,0 +1,18 @@
+.icons div{
+ margin-bottom: 20px;
+}
+.icons div{
+    background-color: aqua;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons div i{
+   color: #000;
+   font-size: 26px;
+
+}

@@ -1,0 +1,94 @@
+#banner{
+    display: flex;
+    padding: 50px 10%;
+}
+.banner-left{
+    position: relative;
+}
+.banner-left > h4{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: aqua;
+    letter-spacing: 4px;
+    margin-top: 140px;
+}
+.banner-left h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.banner-left p{
+    width: 400px;
+    margin-top: 40px;
+    color: #ddd;
+    font-size: 17px;
+    font-weight: 500;
+}
+.banner-left button{
+    margin: 40px 0;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 40px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: .5s;
+}
+.banner-left button:hover{
+    background-color: #ddd;
+    color: orangered;
+}
+
+.banner-icon{
+    display: flex;
+    padding-bottom: 50px;
+}
+.banner-icon div{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-icon img{
+    width: 40px;
+}
+
+.banner-right{
+    position: relative;
+}
+.banner-right .photo{
+    width: 420px;
+    position: absolute;
+    top: 70px;
+    left: 350px;
+}
+
+.sidebar-icon{
+    position: absolute;
+    bottom: 0;
+    right: -930px;
+}
+
+.middle-text{
+    position: absolute;
+    top: 110px;
+    right: -370px;
+}
+.middle-text h4{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 4px;
+}
